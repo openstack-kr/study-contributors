@@ -18,6 +18,7 @@
 * [MagnumWiki] - Magnum에 대한 뉴스 및 중요 정보가 집약된 위키 페이지 
 * [ProjectAtomic] - Guest Host가 되는 Atomic os 프로젝트 페이지 
 * [OpenstackContainerTeam] - 오픈스택 컨테이너  관련 위키
+* [MagnumIRC] - 매주 열리는 Magnum IRC 채널 로그 
 
 ### Team Study 정보 
 
@@ -32,3 +33,4 @@ License
 [MagnumWiki]:https://wiki.openstack.org/wiki/Magnum
 [ProjectAtomic]:http://www.projectatomic.io/
 [OpenstackContainerTeam]:https://wiki.openstack.org/wiki/ContainersTeam
+[MagnumIRC]:http://eavesdrop.openstack.org/meetings/containers/
