@@ -19,6 +19,7 @@
 * [ProjectAtomic] - Guest Host가 되는 Atomic os 프로젝트 페이지 
 * [OpenstackContainerTeam] - 오픈스택 컨테이너  관련 위키
 * [MagnumIRC] - 매주 열리는 Magnum IRC 채널 로그 
+* [MagnumMailing] - 메일링 아카하이브 
 
 ### Team Study 정보 
 
@@ -34,3 +35,4 @@ License
 [ProjectAtomic]:http://www.projectatomic.io/
 [OpenstackContainerTeam]:https://wiki.openstack.org/wiki/ContainersTeam
 [MagnumIRC]:http://eavesdrop.openstack.org/meetings/containers/
+[MagnumMailing]:http://lists.openstack.org/pipermail/openstack-dev/
