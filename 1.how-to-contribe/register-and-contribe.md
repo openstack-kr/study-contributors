@@ -54,16 +54,19 @@ Host review
 ```
 # git commit -a --amend 
 ```
-이때 다음과 같은 사항을 지켜야 합니다. 
-1. 버그이면 Change-Id: 아랫줄에 다음을 입력
+이때 다음과 같은 사항을 지켜야 합니다.
+1. 첫줄은 50자 까지
+2 둘째줄은 빈줄
+3. 셋째줄 부터 이유 적기 : 한줄에 70자 까지 
+4. 버그이면 Change-Id: 아랫줄에 다음을 입력
  * Closed-Bug: #1276088
-2. 블루 프린트 일때
+5. 블루 프린트 일때
  * blueprint local-storage-volume-scheduling
-3. 도큐먼트에 영향을 줄때
+6. 도큐먼트에 영향을 줄때
  * DocImpact Related to nova-network-objects
-4. 보안 문제가 있을 때
+7. 보안 문제가 있을 때
  * SecurityImpact
-5. 업그레이드에 영향을 미칠 때 (release notes 의 ‘Upgrade Notes’ section 수정 고려) 
+8. 업그레이드에 영향을 미칠 때 (release notes 의 ‘Upgrade Notes’ section 수정 고려) 
  *  UpgradeImpact ..
 
 push 를 하기 위해서 아래와 같이 명령어 실행 합니다. 
