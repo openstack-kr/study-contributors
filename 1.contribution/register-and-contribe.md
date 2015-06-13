@@ -95,5 +95,5 @@ License
 [ssh인증 탭]:https://review.openstack.org/#/settings/ssh-keys
 [profile 탭]:https://review.openstack.org/#/settings/
 
--------------
-by Cha Dong-hwi
+----
+copyright@Cha Dong-hwi
