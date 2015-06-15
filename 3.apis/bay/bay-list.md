@@ -14,9 +14,9 @@ curl -i -X GET -H 'X-Auth-Token: 6f999389f1ca4c1e9d640e4ad93c465e' -H 'Content-T
 #### **Controller API**
 목록 호출 명령이 실행 되면 아래와 같이 Req가 전달된다. WEB MVC를 타고 진입 한 후 conductor api 클래스로 진입한다. 
 >- magnum.api.controllers.v1.bay.BaysController#get_all 
-magnum.api.controllers.v1.bay.BaysController#_get_bays_collection 
+ - magnum.api.controllers.v1.bay.BaysController#_get_bays_collection 
 > - magnum.conductor.api.API#bay_list 
-magnum.objects.bay.Bay#list
+ - magnum.objects.bay.Bay#list
 
 #### <i class="icon-pencil"></i> **Database**  
 아래와 같은 database api로 진입하고, 그 이후 쿼리가 실행 된다. Select된 결과는 역순으로 WEB MVC를 통해서 출력된다. 
