@@ -1,7 +1,7 @@
 Pod 생성 
 -------------
 
-새로운 Pod를 생성한다. pod는 bay의 minion 에 생성되는 docker container를 의미한다. cluster 구성을 위해서 필요한 정보인 menifest 파일은 kubernetes 에서 제공하는 yaml 템플릿으로 사용한다.
+새로운 Pod를 생성한다. pod는 bay의 minion 에 생성되는 docker container를 의미한다. cluster 구성을 위해서 필요한 정보인 manifest 파일은 kubernetes 에서 제공하는 yaml 템플릿으로 사용한다.
 
 ####  **Trigger Request**
 아래와 같이 명령어 또는 RESTful로 Request를 전송한다.
