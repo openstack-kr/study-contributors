@@ -24,6 +24,18 @@ Conductor를 거치는 경우는 MQ를 통해서 전달되는 Payload 를 이해
 4. Service
 5. RC
 
+개별 API의 코드 flow는 다음과 같습니다. 
+* [baymodel list]
+* [baymodel create]
+* [bay list]
+* [bay create]
+* [pod list]
+* [pod create]
+* [service list]
+* [service create]
+* [rc list]
+* [rc create]
+
 Magnum 의 아키텍쳐는 아래와 같습니다. 
 ![architecture of magnum](https://github.com/openstack-kr/study-contributors/blob/master/3.apis/files/magnum-architectue.png)
 
@@ -31,3 +43,15 @@ Magnum 의 아키텍쳐는 아래와 같습니다.
 네트워크 아키텍쳐는 아래와 같습니다. 
 
 ![network architecture of magnum minions]( https://github.com/openstack-kr/study-contributors/blob/master/3.apis/files/magnum-network.png )
+
+[baymodel list]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/1.baymodel/baymodel-list.md
+[baymodel create]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/1.baymodel/baymodel-create.md
+[bay list]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/2.bay/bay-list.md
+[bay create]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/2.bay/bay-create.md
+[pod list]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/3.pod/pod-list.md
+[pod create]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/3.pod/pod-create.md
+[service list]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/4.service/service-list.md
+[service create]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/4.service/service-create.md
+[rc list]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/5.rc/rc-list.md
+[rc create]:https://github.com/openstack-kr/study-contributors/blob/master/3.apis/5.rc/rc-create.md
+
