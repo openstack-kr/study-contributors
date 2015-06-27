@@ -6,5 +6,20 @@ Magnum에 대해서 깊은 이해를 위해서는 아래와 같은 이해가 필
 1. 코드의 흐름을 읽고, 
 2. magnum-api와 magnum-conductor의 역할이해 
 
-이를 위해서 중요 API에 대해서 정리를 하였습니다. 
+이를 위해서 중요 API에 대한 코드 플로우가 정리 되어있습니다. 대략적인 순서는 아래와 같으며, 개별 API마다 차이가 있습니다. 
 
+* CLI 또는 RESTful 호출
+* API Controller 
+* Conductor
+* Kubernetes API Call
+* Database 
+
+Conductor를 거치는 경우는 MQ를 통해서 전달되는 Payload 를 이해하면 Loosely Coupled한 오픈스택의 아키텍쳐를 이해 하기 쉽습니다. 
+
+Magnum 의 아키텍쳐는 아래와 같습니다. 
+
+
+
+네트워크 아키텍쳐는 아래와 같습니다. 
+
+![architecture of magnum minions]( https://github.com/openstack-kr/study-contributors/blob/master/3.apis/files/magnum-network.png )
