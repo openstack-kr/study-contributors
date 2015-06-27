@@ -39,6 +39,8 @@ Conductor를 거치는 경우는 MQ를 통해서 전달되는 Payload 를 이해
 Magnum 의 아키텍쳐는 아래와 같습니다. 
 ![architecture of magnum](https://github.com/openstack-kr/study-contributors/blob/master/3.apis/files/magnum-architectue.png)
 
+Heat 의 Stack Topology는 아래와 같습니다. 
+![stack topology](https://github.com/openstack-kr/study-contributors/blob/master/3.apis/files/heat-stack-diagram.png)
 
 네트워크 아키텍쳐는 아래와 같습니다. 
 
