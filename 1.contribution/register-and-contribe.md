@@ -60,7 +60,7 @@ Host review
 2. 둘째줄은 빈줄
 3. 셋째줄 부터 이유 적기 : 한줄에 70자 까지 
 4. 버그이면 Change-Id: 아랫줄에 다음을 입력
- * Closed-Bug: #1276088
+ * Closes-Bug: #1276088
 5. 블루 프린트 일때
  * blueprint local-storage-volume-scheduling
 6. 도큐먼트에 영향을 줄때
